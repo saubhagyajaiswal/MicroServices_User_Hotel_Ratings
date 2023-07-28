@@ -1,8 +1,12 @@
+spring:
+  application:
+    name: default
+
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-#    service-url:
-#      defaultZone: http://locahost:8761/eureka
+    service-url:
+      defaultZone: http://locahost:8761/eureka
   instance:
     prefer-ip-address: true
