@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: CONFIG-DEV
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://locahost:8761/eureka
+  instance:
+    prefer-ip-address: true
